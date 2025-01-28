@@ -31,7 +31,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+[<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>](https://i.imgur.com/HtuWj0O.png)
 </p>
 <p>
 Configure Email Settings (SMTP & Incoming Email)
@@ -43,7 +43,7 @@ Configure an email inbox to fetch incoming emails (optional, but useful for auto
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+[<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>](https://i.imgur.com/rJ4mkov.png)
 </p>
 <p>
 Secure osTicket Installation
@@ -57,7 +57,7 @@ Enable SSL/HTTPS to ensure encrypted communication between users and the server.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+[<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>](https://i.imgur.com/FYn2343.png)
 </p>
 <p>
 Set Permissions & User Roles
