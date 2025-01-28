@@ -34,7 +34,11 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Configure Email Settings (SMTP & Incoming Email)
+Why it's important: Email notifications are critical for ticketing systems. You need osTicket to send notifications to users and agents about ticket updates, responses, and alerts. Also, enabling email fetching (IMAP/POP3) allows you to create tickets directly from incoming emails.
+What to do:
+Set up SMTP to allow osTicket to send emails.
+Configure an email inbox to fetch incoming emails (optional, but useful for automatic ticket creation).
 </p>
 <br />
 
@@ -42,7 +46,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Secure osTicket Installation
+Why it's important: Security is essential to protect sensitive data. Without securing the system, it may become vulnerable to unauthorized access and attacks.
+What to do:
+Remove the installation directory (setup/ folder) to prevent attackers from running installation scripts again.
+Set file permissions properly on important directories like attachments/ and include/ to prevent unauthorized access.
+Enable SSL/HTTPS to ensure encrypted communication between users and the server.
 </p>
 <br />
 
@@ -50,6 +59,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Set Permissions & User Roles
+Why it's important: Different users need different levels of access. You must define clear roles to prevent unauthorized access to sensitive admin sections and to ensure agents can work with tickets efficiently.
+What to do:
+Configure user roles like Admin, Agent, and End-User.
+Assign permissions that control access to ticket management, reporting, settings, and admin functionalities.
 </p>
 <br />
