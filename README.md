@@ -47,7 +47,8 @@ Configure an email inbox to fetch incoming emails (optional, but useful for auto
 </p>
 <p>
 Secure osTicket Installation
-Why it's important: Security is essential to protect sensitive data. Without securing the system, it may become vulnerable to unauthorized access and attacks.
+Why it's important:
+  Security is essential to protect sensitive data. Without securing the system, it may become vulnerable to unauthorized access and attacks.
 What to do:
 Remove the installation directory (setup/ folder) to prevent attackers from running installation scripts again.
 Set file permissions properly on important directories like attachments/ and include/ to prevent unauthorized access.
